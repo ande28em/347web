@@ -1,10 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta');
+
+:root {
+	color-scheme: dark;
+}
 
 body {
-    font-family: 'Futura', 'Verdana', 'Impact', sans-serif;
-    border: 2px solid powderblue;
-    padding: 30px;
+    font-family: "Allerta", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    font-size: 15px;
 
-    
+    letter-spacing: -0.3px;
+    background-color: #2a2a2b;
+    color: #CECECE;
+
+    margin-left: 200px;
+    margin-right: 200px;  
+}
+
+code {
+  border-radius: 10px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #cEFF51;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    max-width: 60%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+a {
+  color: #CEFF51;
+}
+
+h3 {
+  font-size: 2.4em;
+  font-weight: 200;
+  letter-spacing: -1px;
+  padding: 20px 0;
+
+  display: block;
+  font-size: 1.17em;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  color: #cEFF51;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  font-size: 15px;
+  margin: 20px 0;
 }
 
 .button {
